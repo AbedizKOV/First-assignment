@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    background: white;
+    padding: 1rem;
+    width: 100%;
+}
+
+caption {
+    padding: 1rem;
+    background: hsl(100 100% 100%);
+    font-size: 700;
+    text-transform: uppercase;
+}
+
+th, 
+td {
+    padding: 1rem;
+    text-align: left;
+    border-style: double;
+    border-radius: 100%;
+    border-width: 5px;
+}
+
+@media (max-width 650) {
+    td {
+        display: block;
+    }
+}
